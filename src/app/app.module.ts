@@ -18,7 +18,7 @@ import { HomeComponent } from './components/home/home.component';
 import { ServicesComponent } from './components/services/services.component';
 import { DividerComponent } from './components/divider/divider.component';
 import { LimestoneComponent } from './components/limestone/limestone.component';
-
+import { SuccessComponent} from './components/success/success.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +37,8 @@ import { LimestoneComponent } from './components/limestone/limestone.component';
     HomeComponent,
     ServicesComponent,
     DividerComponent,
-    LimestoneComponent
+    LimestoneComponent,
+    SuccessComponent
   ],
   imports: [
     BrowserModule,

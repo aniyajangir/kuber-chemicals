@@ -21,25 +21,32 @@
       <div class="col-lg-7">
         <div class="pt-1 bg-primary">
           <div class="p-4 p-lg-5 bg-white shadow-sm">
-            <form action="https://formsubmit.co/el/pifeki" method="POST" >
+            <form action="https://formsubmit.co/6d5b26da319dde6cba9ab534bbe9d34b" method="POST">
               <div class="row gy-3">
+
+                <!-- Honey Pot -->
+                <input type="text" name="_honey" style="display:none">
+                <!-- Disable Captcha -->
+                <input type="hidden" name="_captcha" value="false">
+                <!-- Success Page -->
+                <input type="hidden" name="_next" value="http://localhost:4200/success">
                 <div class="col-lg-6">
                   <input class="form-control" type="text" name="name" placeholder="N name">
                 </div>
                 <div class="col-lg-6">
-                  <input class="form-control" type="text" name="Last Name" placeholder="Last name">
+                  <input class="form-control" type="text" name="Last&nbsp; Name" placeholder="Last name">
                 </div>
                 <div class="col-lg-6">
                   <input class="form-control" type="tel" name="phone" placeholder="Phone number">
                 </div>
                 <div class="col-lg-6">
-                  <input class="form-control" type="text" name="_subject" placeholder="Subject">
+                  <input class="form-control" type="text" name="subject" placeholder="Subject">
                 </div>
                 <div class="col-lg-12">
                   <input class="form-control" type="email" name="email" placeholder="Email address">
                 </div>
                 <div class="col-lg-12">
-                  <textarea class="form-control" name="comments questions" rows="5" placeholder="Leave your message"></textarea>
+                  <textarea class="form-control" name="message" rows="5" placeholder="Leave your message"></textarea>
                 </div>
                 <div class="col-lg-12">
                   <button class="btn btn-outline-primary" type="submit">Submit now</button>

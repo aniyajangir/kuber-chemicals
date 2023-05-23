@@ -8,6 +8,7 @@ import { HydratedLimeComponent } from './components/hydrated-lime/hydrated-lime.
 import { QuickLimeComponent } from './components/quick-lime/quick-lime.component';
 import { ApplicationsComponent } from './components/applications/applications.component';
 import {LimestoneComponent} from './components/limestone/limestone.component';
+import { SuccessComponent } from './components/success/success.component';
 
 const routes: Routes = [
   {path:'', component:HomeComponent},
@@ -17,7 +18,8 @@ const routes: Routes = [
   {path:'hydrated-lime', component: HydratedLimeComponent},
   {path:'quick-lime', component: QuickLimeComponent},
   {path:'applications', component: ApplicationsComponent},
-  {path:'limestone', component:LimestoneComponent}
+  {path:'limestone', component:LimestoneComponent},
+  {path:'success', component: SuccessComponent}
 ];
 
 @NgModule({
